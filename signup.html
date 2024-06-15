@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- site metas -->
+    <title>Faraba Farmer Signup</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+</head>
+<body>
+    <!-- header section start -->
+    <div class="header_section background_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+                </div>
+                <div class="col-md-9">
+                    <div class="menu_text">
+                        <ul>
+                            <div class="togle_3">
+                                <div class="menu_main">
+                                    <div href="#"><img src="images/user-icon.png"><span class="padding_left0">LOGIN / REGISTER</span></div>
+                                </div>
+                                <div class="shoping_bag"><img src="images/bag-icon.png"><span class="padding_left_40"><img src="images/search-icon.png"></span></div>
+                            </div>
+                            <div id="myNav" class="overlay">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <div class="overlay-content">
+                                    <a href="index.html">Home</a>
+                                    <a href="about.html">About</a>
+                                    <a href="services.html">Services</a>
+                                    <a href="gallery.html">Gallery</a>
+                                    <a href="contact.html">Contact Us</a>
+                                </div>
+                            </div>
+                            <span class="navbar-toggler-icon"></span>
+                            <span onclick="openNav()"><img src="images/toogle-icon.png" class="toggle_menu"></span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header section end -->
+    
+    <!-- signup section start -->
+    <div class="signup_section layout_padding">
+        <div class="container">
+            <h1 class="signup_text">Farmer Signup</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="location">Location:</label>
+                    <input type="text" class="form-control" id="location" placeholder="Enter your location">
+                </div>
+                <div class="form-group">
+                    <label for="produce">Type of Produce:</label>
+                    <input type="text" class="form-control" id="produce" placeholder="Enter the type of produce">
+                </div>
+                <div class="form-group">
+                    <label for="quality">Quality:</label>
+                    <input type="text" class="form-control" id="quality" placeholder="Enter the quality of produce">
+                </div>
+                <div class="form-group">
+                    <label for="size">Size:</label>
+                    <select class="form-control" id="size">
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="loan">Seeking Loan:</label>
+                    <select class="form-control" id="loan">
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="additional_info">Additional Information:</label>
+                    <textarea class="form-control" id="additional_info" rows="3" placeholder="Enter any additional information"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- signup section end -->
+    
+    <!-- footer section start -->
+    <div class="footer_section layout_padding">
+        <div class="container">
+            <div class="footer_logo">Faraba</div>
+            <div class="footer_taital">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3 border_left_0">
+                        <div class="location_text"><img src="images/map-icon.png"><span class="padding_left_15">Locations</span></div>
+                        <div class="location_text"><img src="images/call-icon.png"><span class="padding_left_15">+ 9876543210</span></div>
+                        <div class="location_text"><img src="images/mail-icon.png"><span class="padding_left_15">contact@faraba.com</span></div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <h3 class="useful_text">Useful Links</h3>
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 border_right_0">
+                        <h3 class="useful_text">Menus</h3>
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Retailers</a></li>
+                                <li><a href="#">Agriculture</a></li>
+                                <li><a href="#">Categories</a></li>
+                                <li><a href="#">News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <h3 class="useful_text">Follow Us</h3>
+                        <div class="social_icon">
+                            <ul>
+                                <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                                <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                                <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
+                                <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright_text">Copyright 2024 All Right Reserved By Faraba</div>
+        </div>
+    </div>
+    <!-- footer section end -->
+    
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- javascript -->
+    <script src="js/owl.carousel.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".fancybox").fancybox({
+                openEffect: "none",
+                closeEffect: "none"
+            });
+        
+            $(".zoom").hover(function(){
+                $(this).addClass('transition');
+            }, function(){
+                $(this).removeClass('transition');
+            });
+        });
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</body>
+</html>
